@@ -1,0 +1,9 @@
+## 📄 File Format
+
+Your file should be a CSV (Comma-Separated Values) file with the following three columns:
+
+| Column Name | Data Type | Description                                       | Example           |
+|-------------|-----------|---------------------------------------------------|-------------------|
+| `timestamp` | string    | Date in format `DD-MM-YYYY`                       | `01-04-2025`      |
+| `names`     | string    | Name of the user (person who sent a message)      | `Alice`, `Bob`    |
+| `hours`     | float     | Number of hours spent by that user that day       | `1.5`, `2`, `2.5` |
